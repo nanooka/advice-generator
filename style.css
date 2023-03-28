@@ -38,9 +38,6 @@ body {
   bottom: -32px;
   cursor: pointer;
 }
-.dice:hover {
-  box-shadow: 0px 0px 40px #53ffaa;
-}
 span {
   color: #53ffaa;
   font-weight: 800;
@@ -67,5 +64,8 @@ span {
     gap: 48px;
     padding: 48px;
     padding-bottom: 80px;
+  }
+  .dice:hover {
+    box-shadow: 0px 0px 40px #53ffaa;
   }
 }
